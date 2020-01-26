@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 4000;
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "API Working" });
+  res.json({ message: "API Working Now" });
 });
 
 
